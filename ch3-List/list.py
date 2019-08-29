@@ -1,15 +1,15 @@
 # PRACTICE: Random Numbers
-# import random
+import random
 
-# my_randoms = list()
-# for i in range(10):
-#     my_randoms.append(random.randrange(1, 6, 1))
+my_randoms = list()
+for i in range(10):
+    my_randoms.append(random.randrange(1, 6, 1))
 
-# for number in range(1, 6):
-#     if number in my_randoms:
-#         print(f"my_randoms contains{number}")
-#     else:
-#         print(f"my_randoms does not contain {number}")
+for number in range(1, 6):
+    if number in my_randoms:
+        print(f"my_randoms contains{number}")
+    else:
+        print(f"my_randoms does not contain {number}")
     
 
 #  PRACTICE: Planet List
