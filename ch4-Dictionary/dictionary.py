@@ -47,3 +47,23 @@ idioms = {
 for key, value in idioms.items():
     val = " ".join(value)
     print(f'{key}: {val}')
+
+
+# CHALLENGE: The Family Dictionary
+my_family = {
+    "sister": {
+        "name": "Sarah",
+        "age": 43
+    },
+    "mother": {
+        "name": "Judy",
+        "age": 76
+    },
+    "father": {
+        "name": "Ray",
+        "age": 79
+    }
+}
+
+for fam_member, details in my_family.items():
+    print(f'{details["name"]} is my {fam_member} and is {str(details["age"])} years old')
