@@ -67,3 +67,8 @@ my_family = {
 
 for fam_member, details in my_family.items():
     print(f'{details["name"]} is my {fam_member} and is {str(details["age"])} years old')
+
+
+
+# ADVANCED CHALLENGE: Stock Portfolio
+
